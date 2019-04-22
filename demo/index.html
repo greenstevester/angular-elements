@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular 7 webcomponent example</title>
+  <!-- get the required files from 3rd party sources -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <!-- include the CSS for custom elements -->
+  <!-- use the font -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+    }
+  </style>
+  <link type="text/css" href="./styles.css">
+  <script>
+    function addElement(message) {
+      let newPopup = document.createElement("popup-element");
+      newPopup.setAttribute("message", message);
+      newPopup.addEventListener('closed', () => document.body.removeChild(newPopup));
+      let container = document.getElementById("container");
+      document.body.insertBefore(newPopup, container);
+    }
+  </script>
+  <script src="./popup-webcomponent.js"></script>
+</head>
+<body>
+  <h1>Angular 7 WebComponent example</h1>
+  <p>The button below adds an angular 7 webcomponent popup-element to the page</p>
+  <div #container>
+    <button onclick="addElement('message')">Show popup</button>
+  </div>
+</body>
+</html>
