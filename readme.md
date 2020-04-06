@@ -1,5 +1,5 @@
 
-# Angular 7 Webcomponent example
+# Angular Webcomponent example
 
 Example as described 
 - https://angular.io/guide/elements
