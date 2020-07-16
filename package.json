@@ -39,7 +39,7 @@
     "@angular/platform-server": "^9.1.0",
     "@types/node": "~8.9.4",
     "@angular/upgrade": "^9.1.0",
-    "lodash": "^4.16.2",
+    "lodash": "^4.17.19",
     "mkdirp": "^1.0.3",
     "rimraf": "^3.0.2",
     "ts-node": "~8.8.2",
