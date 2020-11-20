@@ -12,6 +12,10 @@ Example as described
 2. https://www.npmjs.com/package/live-server
 npm install -g live-server
 
+2.1 upgrade angular  
+
+ng update @angular/core @angular/cli
+
 ## Steps to build and run
 
 1. clone this repository
