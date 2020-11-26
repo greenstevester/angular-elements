@@ -1,6 +1,6 @@
 {
   "name": "angular-io-example",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Example project from an angular.io guide.",
   "scripts": {
@@ -13,39 +13,39 @@
     "clean-node_modules": "rimraf ./node_modules",
     "check outdated libs": "npm outdated",
     "clean npm cache": "npm cache clean --force",
-    "build-prod-popup-webcomponent": "ng build --prod --output-hashing=none --output-path=dist-popup-webcomponent --extract-css"
+    "build-prod-popup-webcomponent": "ng build --prod --output-hashing=none --output-path=dist-popup-webcomponent"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@angular/animations": "^9.1.0",
-    "@angular/common": "^9.1.0",
-    "@angular/compiler": "^9.1.0",
-    "@angular/core": "^9.1.0",
-    "@angular/elements": "^9.1.0",
-    "@angular/forms": "^9.1.0",
-    "@angular/platform-browser": "^9.1.0",
-    "@angular/platform-browser-dynamic": "^9.1.0",
-    "@angular/router": "^9.1.0",
+    "@angular/animations": "^11.0.2",
+    "@angular/common": "^11.0.2",
+    "@angular/compiler": "^11.0.2",
+    "@angular/core": "^11.0.2",
+    "@angular/elements": "^11.0.2",
+    "@angular/forms": "^11.0.2",
+    "@angular/platform-browser": "^11.0.2",
+    "@angular/platform-browser-dynamic": "^11.0.2",
+    "@angular/router": "^11.0.2",
     "core-js": "^2.5.4",
     "rxjs": "^6.5.5",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1100.2",
-    "@angular/cli": "^9.1.0",
-    "@angular/compiler-cli": "^9.1.0",
-    "@angular/platform-server": "^9.1.0",
-    "@angular/upgrade": "^9.1.0",
+    "@angular/cli": "^11.0.2",
+    "@angular/compiler-cli": "^11.0.2",
+    "@angular/platform-server": "^11.0.2",
+    "@angular/upgrade": "^11.0.2",
     "@types/node": "~8.9.4",
     "lodash": "^4.17.20",
     "mkdirp": "^1.0.3",
     "rimraf": "^3.0.2",
     "ts-node": "~8.8.2",
-    "tslib": "^1.11.1",
-    "tslint": "~5.11.0",
-    "typescript": "~3.7.5"
+    "tslib": "^2.0.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.0.5"
   },
   "repository": {}
 }

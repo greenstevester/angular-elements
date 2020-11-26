@@ -22,7 +22,8 @@ ng update @angular/core @angular/cli
 2. Run npm install
 3. run ./buildWC.sh
 4. Run the contents of the demo folder: 
-   - npx live-server demo --port=8081
+
+npx live-server demo --port=8081
 
 ## Size of the end component
-Even though 'ng build --prod' is used the resulting pop-webcomponent.js ends up at 289KB
+Even though 'ng build --prod' is used the resulting pop-webcomponent.js ends up at 389KB
